@@ -29,15 +29,18 @@ public class TennisGame2 implements TennisGame
         return score;
     }
 
-	private String playerIsWinningAndIsNotMatchPoint(String score, int player1points2, int player2points2) {
+	private String playerIsWinningAndIsNotMatchPoint(String score2, int player1points2, int player2points2) {
 		if (playerWinningOver(player1points2, player2points2) && isNotMatchPoint(player1points2))
         {
-            isOnThirty(player1points2);
-            isOnForty(player1points2);
-            isFifteen(player2points2);
+            if (player1points2==_Thirty)
+                literalPlayer1Score="Thirty";
+            if (player1points2==_Forty)
+                literalPlayer1Score="Forty";
+            if (player2points2==_Fifteen)
+                literalPlayer2Score="Fifteen";
             if (player2points2==_Thirty)
                 literalPlayer2Score="Thirty";
-            score = literalPlayer1Score + "-" + literalPlayer2Score;
+            score2 = literalPlayer1Score + "-" + literalPlayer2Score;
         }
         if (playerWinningOver(player2points2, player1points2) && isNotMatchPoint(player2points2))
         {
@@ -47,25 +50,11 @@ public class TennisGame2 implements TennisGame
                 literalPlayer2Score="Forty";
             if (player1points2==_Fifteen)
                 literalPlayer1Score="Fifteen";
-            isOnThirty(player1points2);
-            score = literalPlayer1Score + "-" + literalPlayer2Score;
+            if (player1points2==_Thirty)
+                literalPlayer1Score="Thirty";            
         }
+        score2 = literalPlayer1Score + "-" + literalPlayer2Score;
 		return score;
-	}
-
-	private void isFifteen(int player2points2) {
-		if (player2points2==_Fifteen)
-		    literalPlayer2Score="Fifteen";
-	}
-
-	private void isOnForty(int player1points2) {
-		if (player1points2==_Forty)
-		    literalPlayer1Score="Forty";
-	}
-
-	private void isOnThirty(int player1points2) {
-		if (player1points2==_Thirty)
-		    literalPlayer1Score="Thirty";
 	}
 
 	private boolean playerWinningOver(int player1points2, int player2points2) {
@@ -99,8 +88,10 @@ public class TennisGame2 implements TennisGame
         {
             if (player1points2==_Fifteen)
                 literalPlayer1Score = "Fifteen";
-            isOnThirty(player1points2);
-            isOnForty(player1points2);
+            if (player1points2==_Thirty)
+                literalPlayer1Score = "Thirty";
+            if (player1points2==_Forty)
+                literalPlayer1Score = "Forty";
             
             literalPlayer2Score = "Love";
             score = literalPlayer1Score + "-" + literalPlayer2Score;
@@ -119,7 +110,8 @@ public class TennisGame2 implements TennisGame
 	private String player2IsOn_Fifteen_Thirty_Forty(String score, int player1points2, int player2points2) {
 		if (playerMoreThanLove(player2points2) && playerInLove(player1points2))
         {
-            isFifteen(player2points2);
+            if (player2points2==_Fifteen)
+                literalPlayer2Score = "Fifteen";
             if (player2points2==_Thirty)
                 literalPlayer2Score = "Thirty";
             if (player2points2==_Forty)

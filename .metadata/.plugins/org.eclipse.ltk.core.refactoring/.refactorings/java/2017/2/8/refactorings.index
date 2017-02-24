@@ -32,3 +32,6 @@
 1487929400828	Extract method 'moreOrEqualToLove'
 1487929428580	Extract method 'moreOrEqualToThirty'
 1487929475790	Rename method 'moreOrEqualToThirty'
+1487930832529	Extract method 'isOnThirty'
+1487930899550	Extract method 'isOnForty'
+1487930916339	Extract method 'isFifteen'

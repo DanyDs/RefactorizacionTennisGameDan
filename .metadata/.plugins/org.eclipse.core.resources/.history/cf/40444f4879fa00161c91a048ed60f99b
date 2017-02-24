@@ -35,8 +35,7 @@ public class TennisGame2 implements TennisGame
             isOnThirty(player1points2);
             isOnForty(player1points2);
             isFifteen(player2points2);
-            if (player2points2==_Thirty)
-                literalPlayer2Score="Thirty";
+            isOnThirty(player1points2);
             score = literalPlayer1Score + "-" + literalPlayer2Score;
         }
         if (playerWinningOver(player2points2, player1points2) && isNotMatchPoint(player2points2))

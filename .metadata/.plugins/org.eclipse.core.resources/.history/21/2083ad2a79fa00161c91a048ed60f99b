@@ -33,8 +33,10 @@ public class TennisGame2 implements TennisGame
 		if (playerWinningOver(player1points2, player2points2) && isNotMatchPoint(player1points2))
         {
             isOnThirty(player1points2);
-            isOnForty(player1points2);
-            isFifteen(player2points2);
+            if (player1points2==_Forty)
+                literalPlayer1Score="Forty";
+            if (player2points2==_Fifteen)
+                literalPlayer2Score="Fifteen";
             if (player2points2==_Thirty)
                 literalPlayer2Score="Thirty";
             score = literalPlayer1Score + "-" + literalPlayer2Score;
@@ -51,16 +53,6 @@ public class TennisGame2 implements TennisGame
             score = literalPlayer1Score + "-" + literalPlayer2Score;
         }
 		return score;
-	}
-
-	private void isFifteen(int player2points2) {
-		if (player2points2==_Fifteen)
-		    literalPlayer2Score="Fifteen";
-	}
-
-	private void isOnForty(int player1points2) {
-		if (player1points2==_Forty)
-		    literalPlayer1Score="Forty";
 	}
 
 	private void isOnThirty(int player1points2) {
@@ -100,7 +92,8 @@ public class TennisGame2 implements TennisGame
             if (player1points2==_Fifteen)
                 literalPlayer1Score = "Fifteen";
             isOnThirty(player1points2);
-            isOnForty(player1points2);
+            if (player1points2==_Forty)
+                literalPlayer1Score = "Forty";
             
             literalPlayer2Score = "Love";
             score = literalPlayer1Score + "-" + literalPlayer2Score;
@@ -119,7 +112,8 @@ public class TennisGame2 implements TennisGame
 	private String player2IsOn_Fifteen_Thirty_Forty(String score, int player1points2, int player2points2) {
 		if (playerMoreThanLove(player2points2) && playerInLove(player1points2))
         {
-            isFifteen(player2points2);
+            if (player2points2==_Fifteen)
+                literalPlayer2Score = "Fifteen";
             if (player2points2==_Thirty)
                 literalPlayer2Score = "Thirty";
             if (player2points2==_Forty)

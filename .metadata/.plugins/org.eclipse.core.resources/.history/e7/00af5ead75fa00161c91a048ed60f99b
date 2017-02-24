@@ -115,7 +115,8 @@ public class TennisGame2 implements TennisGame
             if (player2points2==_Thirty)
                 literalPlayer2Score = "Thirty";
             if (player2points2==_Forty)
-                literalPlayer2Score = "Forty";            
+                literalPlayer2Score = "Forty";
+            
             literalPlayer1Score = "Love";
             score = literalPlayer1Score + "-" + literalPlayer2Score;
         }
@@ -123,11 +124,15 @@ public class TennisGame2 implements TennisGame
 	}
 
 	private String playerInAdvantage(String score, int player1points2, int player2points2) {
-		if (playerWinningOver(player1points2, player2points2) && playerMoreOrEqualToForty(player2points2))        
-            score = "Advantage player1";        
+		if (playerWinningOver(player1points2, player2points2) && playerMoreOrEqualToForty(player2points2))
+        {
+            score = "Advantage player1";
+        }
         
         if (playerWinningOver(player2points2, player1points2) && playerMoreOrEqualToForty(player1points2))
-            score = "Advantage player2";        
+        {
+            score = "Advantage player2";
+        }
 		return score;
 	}
 
@@ -136,23 +141,15 @@ public class TennisGame2 implements TennisGame
 	}
 
 	private String winForPlayer1OrPlayer2(String score, int player1points2, int player2points2) {
-		if (moreThanMatchPoint(player1points2) && moreOrEqualToLove(player2points2) && differenceIsMoreOrEqualToThirty(player1points2, player2points2))
+		if (moreThanMatchPoint(player1points2) && player2points2>=_love && (player1points2-player2points2)>=_Thirty)
         {
             score = "Win for player1";
         }
-        if (moreThanMatchPoint(player2points2) && moreOrEqualToLove(player1points2) && differenceIsMoreOrEqualToThirty(player2points2, player1points2))
+        if (moreThanMatchPoint(player2points2) && player1points2>=_love && (player2points2-player1points2)>=_Thirty)
         {
             score = "Win for player2";
         }
 		return score;
-	}
-
-	private boolean differenceIsMoreOrEqualToThirty(int player1points2, int player2points2) {
-		return (player1points2-player2points2)>=_Thirty;
-	}
-
-	private boolean moreOrEqualToLove(int player2points2) {
-		return player2points2>=_love;
 	}
 
 	private boolean moreThanMatchPoint(int player1points2) {

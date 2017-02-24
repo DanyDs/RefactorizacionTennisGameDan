@@ -14,7 +14,16 @@ public class TennisGame2 implements TennisGame
         String score = "";
         int player1points2 = player1points;
 		int player2points2 = player2points;
-		score = playersAreTiedAndIsNotDeuce(score, player1points2, player2points2);
+		if (player1points2 == player2points2 && player1points2 < 4)
+        {
+            if (player1points2==0)
+                score = "Love";
+            if (player1points2==1)
+                score = "Fifteen";
+            if (player1points2==2)
+                score = "Thirty";
+            score += "-All";
+        }
         score = isDeuce(score, player1points2, player2points2);
         
         score = player1IsOn_Fifteen_Thrity_Forty(score, player1points2, player2points2);
@@ -49,20 +58,6 @@ public class TennisGame2 implements TennisGame
         score = winForPlayer1OrPlayer2(score, player1points2, player2points2);
         return score;
     }
-
-	private String playersAreTiedAndIsNotDeuce(String score, int player1points2, int player2points2) {
-		if (player1points2 == player2points2 && player1points2 < 4)
-        {
-            if (player1points2==0)
-                score = "Love";
-            if (player1points2==1)
-                score = "Fifteen";
-            if (player1points2==2)
-                score = "Thirty";
-            score += "-All";
-        }
-		return score;
-	}
 
 	private String player1IsOn_Fifteen_Thrity_Forty(String score, int player1points2, int player2points2) {
 		if (player1points2 > 0 && player2points2==0)

@@ -12,86 +12,84 @@ public class TennisGame2 implements TennisGame
 
     public String getScore(){
         String score = "";
-        int player1points2 = player1points;
-		int player2points2 = player2points;
-		if (player1points2 == player2points2 && player1points2 < 4)
+        if (player1points == player2points && player1points < 4)
         {
-            if (player1points2==0)
+            if (player1points==0)
                 score = "Love";
-            if (player1points2==1)
+            if (player1points==1)
                 score = "Fifteen";
-            if (player1points2==2)
+            if (player1points==2)
                 score = "Thirty";
             score += "-All";
         }
-        if (player1points2==player2points2 && player1points2>=3)
+        if (player1points==player2points && player1points>=3)
             score = "Deuce";
         
-        if (player1points2 > 0 && player2points2==0)
+        if (player1points > 0 && player2points==0)
         {
-            if (player1points2==1)
+            if (player1points==1)
                 literalPlayer1Score = "Fifteen";
-            if (player1points2==2)
+            if (player1points==2)
                 literalPlayer1Score = "Thirty";
-            if (player1points2==3)
+            if (player1points==3)
                 literalPlayer1Score = "Forty";
             
             literalPlayer2Score = "Love";
             score = literalPlayer1Score + "-" + literalPlayer2Score;
         }
-        if (player2points2 > 0 && player1points2==0)
+        if (player2points > 0 && player1points==0)
         {
-            if (player2points2==1)
+            if (player2points==1)
                 literalPlayer2Score = "Fifteen";
-            if (player2points2==2)
+            if (player2points==2)
                 literalPlayer2Score = "Thirty";
-            if (player2points2==3)
+            if (player2points==3)
                 literalPlayer2Score = "Forty";
             
             literalPlayer1Score = "Love";
             score = literalPlayer1Score + "-" + literalPlayer2Score;
         }
         
-        if (player1points2>player2points2 && player1points2 < 4)
+        if (player1points>player2points && player1points < 4)
         {
-            if (player1points2==2)
+            if (player1points==2)
                 literalPlayer1Score="Thirty";
-            if (player1points2==3)
+            if (player1points==3)
                 literalPlayer1Score="Forty";
-            if (player2points2==1)
+            if (player2points==1)
                 literalPlayer2Score="Fifteen";
-            if (player2points2==2)
+            if (player2points==2)
                 literalPlayer2Score="Thirty";
             score = literalPlayer1Score + "-" + literalPlayer2Score;
         }
-        if (player2points2>player1points2 && player2points2 < 4)
+        if (player2points>player1points && player2points < 4)
         {
-            if (player2points2==2)
+            if (player2points==2)
                 literalPlayer2Score="Thirty";
-            if (player2points2==3)
+            if (player2points==3)
                 literalPlayer2Score="Forty";
-            if (player1points2==1)
+            if (player1points==1)
                 literalPlayer1Score="Fifteen";
-            if (player1points2==2)
+            if (player1points==2)
                 literalPlayer1Score="Thirty";
             score = literalPlayer1Score + "-" + literalPlayer2Score;
         }
         
-        if (player1points2 > player2points2 && player2points2 >= 3)
+        if (player1points > player2points && player2points >= 3)
         {
             score = "Advantage player1";
         }
         
-        if (player2points2 > player1points2 && player1points2 >= 3)
+        if (player2points > player1points && player1points >= 3)
         {
             score = "Advantage player2";
         }
         
-        if (player1points2>=4 && player2points2>=0 && (player1points2-player2points2)>=2)
+        if (player1points>=4 && player2points>=0 && (player1points-player2points)>=2)
         {
             score = "Win for player1";
         }
-        if (player2points2>=4 && player1points2>=0 && (player2points2-player1points2)>=2)
+        if (player2points>=4 && player1points>=0 && (player2points-player1points)>=2)
         {
             score = "Win for player2";
         }

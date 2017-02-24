@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TennisTest" project="java" tests="99" started="99" failures="0" errors="0" ignored="0">
+  <testsuite name="TennisTest" time="0.029">
+    <testsuite name="[0]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[0]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[0]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[0]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[1]" time="0.001">
+      <testcase name="checkAllScoresTennisGame1[1]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[1]" classname="TennisTest" time="0.001"/>
+      <testcase name="checkAllScoresTennisGame3[1]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[2]" time="0.001">
+      <testcase name="checkAllScoresTennisGame1[2]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[2]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[2]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[3]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[3]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[3]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[3]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[4]" time="0.004">
+      <testcase name="checkAllScoresTennisGame1[4]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[4]" classname="TennisTest" time="0.001"/>
+      <testcase name="checkAllScoresTennisGame3[4]" classname="TennisTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[5]" time="0.001">
+      <testcase name="checkAllScoresTennisGame1[5]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[5]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[5]" classname="TennisTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[6]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[6]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[6]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[6]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[7]" time="0.001">
+      <testcase name="checkAllScoresTennisGame1[7]" classname="TennisTest" time="0.001"/>
+      <testcase name="checkAllScoresTennisGame2[7]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[7]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[8]" time="0.001">
+      <testcase name="checkAllScoresTennisGame1[8]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[8]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[8]" classname="TennisTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[9]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[9]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[9]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[9]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[10]" time="0.001">
+      <testcase name="checkAllScoresTennisGame1[10]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[10]" classname="TennisTest" time="0.001"/>
+      <testcase name="checkAllScoresTennisGame3[10]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[11]" time="0.001">
+      <testcase name="checkAllScoresTennisGame1[11]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[11]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[11]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[12]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[12]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[12]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[12]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[13]" time="0.001">
+      <testcase name="checkAllScoresTennisGame1[13]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[13]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[13]" classname="TennisTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[14]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[14]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[14]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[14]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[15]" time="0.003">
+      <testcase name="checkAllScoresTennisGame1[15]" classname="TennisTest" time="0.001"/>
+      <testcase name="checkAllScoresTennisGame2[15]" classname="TennisTest" time="0.001"/>
+      <testcase name="checkAllScoresTennisGame3[15]" classname="TennisTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[16]" time="0.002">
+      <testcase name="checkAllScoresTennisGame1[16]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[16]" classname="TennisTest" time="0.002"/>
+      <testcase name="checkAllScoresTennisGame3[16]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[17]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[17]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[17]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[17]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[18]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[18]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[18]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[18]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[19]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[19]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[19]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[19]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[20]" time="0.001">
+      <testcase name="checkAllScoresTennisGame1[20]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[20]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[20]" classname="TennisTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[21]" time="0.002">
+      <testcase name="checkAllScoresTennisGame1[21]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[21]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[21]" classname="TennisTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[22]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[22]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[22]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[22]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[23]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[23]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[23]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[23]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[24]" time="0.001">
+      <testcase name="checkAllScoresTennisGame1[24]" classname="TennisTest" time="0.001"/>
+      <testcase name="checkAllScoresTennisGame2[24]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[24]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[25]" time="0.002">
+      <testcase name="checkAllScoresTennisGame1[25]" classname="TennisTest" time="0.001"/>
+      <testcase name="checkAllScoresTennisGame2[25]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[25]" classname="TennisTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[26]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[26]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[26]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[26]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[27]" time="0.001">
+      <testcase name="checkAllScoresTennisGame1[27]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[27]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[27]" classname="TennisTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[28]" time="0.004">
+      <testcase name="checkAllScoresTennisGame1[28]" classname="TennisTest" time="0.004"/>
+      <testcase name="checkAllScoresTennisGame2[28]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[28]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[29]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[29]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[29]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[29]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[30]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[30]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[30]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[30]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[31]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[31]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[31]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[31]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[32]" time="0.0">
+      <testcase name="checkAllScoresTennisGame1[32]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame2[32]" classname="TennisTest" time="0.0"/>
+      <testcase name="checkAllScoresTennisGame3[32]" classname="TennisTest" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>
